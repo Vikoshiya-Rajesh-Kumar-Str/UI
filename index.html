@@ -45,7 +45,7 @@
       const phone = document.getElementById('phone').value.trim();
 
       try {
-        const res = await fetch('https://your-render-url.onrender.com/send', {
+        const res = await fetch('https://server-e7l1.onrender.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name, email, phone })
